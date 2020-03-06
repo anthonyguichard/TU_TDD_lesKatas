@@ -18,4 +18,9 @@ class FizzBuzz
 			? 'Buzz' 
 			: false;
 	}
+
+	public function isFizzOrBuzz($number)
+	{
+		//
+	}
 }
