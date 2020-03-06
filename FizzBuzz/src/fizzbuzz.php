@@ -19,6 +19,7 @@ class FizzBuzz
 			: false;
 	}
 
+	// if number is fizz or buzz
 	public function isFizzOrBuzz($number)
 	{
 		return $this->isFizz($number) || $this->isBuzz($number);
