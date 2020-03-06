@@ -13,6 +13,7 @@ final class FizzBuzzTest extends TestCase
 		$this->assertEquals('Fizz', $fizz->isFizz(3 * rand()));
 	}
 
+	// if number is divisible by five is replaced by the word buzz
 	public function test_a_number_divisible_by_five_is_replaced_by_the_word_buzz()
 	{
 		$buzz = new FizzBuzz();

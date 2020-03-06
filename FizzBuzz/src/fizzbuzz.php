@@ -11,6 +11,7 @@ class FizzBuzz
 			: false;
 	}
 
+	// if number is divisible by five is replaced by the word buzz
 	public function isBuzz($number)
 	{
 		return $number % 5 === 0 
