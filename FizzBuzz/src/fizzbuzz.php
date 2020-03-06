@@ -10,4 +10,9 @@ class FizzBuzz
 			? 'Fizz' 
 			: false;
 	}
+
+	public function isBuzz($number)
+	{
+		//
+	}
 }
