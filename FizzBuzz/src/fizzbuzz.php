@@ -21,6 +21,6 @@ class FizzBuzz
 
 	public function isFizzOrBuzz($number)
 	{
-		//
+		return $this->isFizz($number) || $this->isBuzz($number);
 	}
 }
