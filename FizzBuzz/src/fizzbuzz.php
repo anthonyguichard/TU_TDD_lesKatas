@@ -13,6 +13,8 @@ class FizzBuzz
 
 	public function isBuzz($number)
 	{
-		//
+		return $number % 5 === 0 
+			? 'Buzz' 
+			: false;
 	}
 }
