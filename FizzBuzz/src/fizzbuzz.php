@@ -25,6 +25,7 @@ class FizzBuzz
 		return $this->isFizz($number) || $this->isBuzz($number);
 	}
 
+	// final calcul - if array of fizz buzz fizzbuzz is matching
 	public function calc(int $count, array $result = [], int $iteration = 1)
 	{
 		if ($iteration > $count) return $result;

@@ -42,6 +42,7 @@ final class FizzBuzzTest extends TestCase
 		$this->assertEquals('FizzBuzz', $fizzbuzz->isFizz($num) . $fizzbuzz->isBuzz($num));
 	}
 
+	// if array of fizz buzz fizzbuzz is matching
 	public function test_array_of_fizz_buzz_fizzbuzz_is_matching()
 	{
 		$fizzbuzz = new FizzBuzz();
