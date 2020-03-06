@@ -24,4 +24,9 @@ class FizzBuzz
 	{
 		return $this->isFizz($number) || $this->isBuzz($number);
 	}
+
+	public function calc()
+	{
+		//
+	}
 }
